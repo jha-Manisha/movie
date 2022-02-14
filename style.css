@@ -1,0 +1,64 @@
+container{
+    background-color:rgba(236, 99, 99, 0.39);
+
+            width: 100%;
+            height: 80%;    
+
+}
+
+.poster{
+    margin: 10px 10px 10px 10px ;
+    display: inline-block;
+    position: relative;   
+}
+.flim{
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+}
+hr{
+    width: 95%;
+    height: 2px;
+    color: black;
+}
+.maincontainer{
+    background-color: black;
+    margin: -40px 35px 36px 1px;
+    width: 100%;
+}
+   .maincontainer  h2{
+    color: white;
+    margin-left: 30px;
+}
+ 
+.menu{
+    background-color:rgb(230, 182, 50); 
+    height: 50px;
+    
+}
+.menu ul{
+     display: flex;
+     list-style: none;
+    
+}
+.menu ul li{
+    
+     margin: 14px 95px 15px 1px;
+     
+}
+.foot{
+    text-align: center;
+    background-color: rgb(238, 178, 13);
+    height: 50px;
+    margin: -36px 31px 23px 2px;
+    width: 100%;
+    padding: 13px 10px 10px 10px;
+}
+.menu ul :hover{
+    background-color: rgb(84, 236, 14);
+    cursor: pointer;
+}
